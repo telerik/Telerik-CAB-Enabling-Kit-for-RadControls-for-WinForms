@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Main"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <ItemGroup>
+        <DirectoryToDelete Include = ".\Source\Telerik.CAB.WinForms\" />
+		<DirectoryToDelete Include = ".\FinanceApplicationCAB\Source\Infrastructure\Infrastructure.Interface\" />
+		<DirectoryToDelete Include = ".\FinanceApplicationCAB\Source\Infrastructure\Infrastructure.Layout\" />
+		<DirectoryToDelete Include = ".\FinanceApplicationCAB\Source\Infrastructure\Infrastructure.Library\" />
+		<DirectoryToDelete Include = ".\FinanceApplicationCAB\Source\Infrastructure\Infrastructure.Module\" />
+		<DirectoryToDelete Include = ".\FinanceApplicationCAB\Source\Infrastructure\Shell\" />
+    </ItemGroup>
+	
+	<ItemGroup>
+		<SccFiles Include = "**\*.vssscc" />
+		<SccFiles Include = "**\*.vspscc" />
+		<SccFiles Include = "**\*.scc" />
+	</ItemGroup>
+
+    <Target Name="Main">
+		<Exec Command="attrib -R /S /D" />
+        <RemoveDir Directories="@(DirectoryToDelete -> '%(RelativeDir)bin\')" />
+		<RemoveDir Directories="@(DirectoryToDelete -> '%(RelativeDir)obj\')" />
+		<Delete Files = "@(SccFiles)" />
+    </Target>
+
+</Project>

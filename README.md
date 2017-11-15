@@ -14,10 +14,10 @@ The Telerik CAB Enabling Kit for WinForms provides seamless integration of RadCo
 
 1. Download the Telerik RadControls for WinForms from Telerik's website: http://www.telerik.com/account.aspx. 
 2. Install Telerik RadControls for WinForms, this will add the Telerik assemblies to your machine's Global Assembly Cache (GAC).
-3. Download the Telerik CAB Enabling Kit from.
+3. Download the Telerik CAB Enabling Kit.
 4. Unzip the Telerik CAB Enabling Kit.
 5. Open the ~\FinanceApplicationCAB\FinanceApplicationCAB.sln solution file from the location where you have unzipped the Telerik CAB Enabling Kit.
-6. Check that the Shell project is set as the startup project for the solution.
+6. Check that the Shell project is set as the start up project for the solution.
 7. Run the example project.
 8. The Telerik CAB Extensions solution can be found at  ~\Source\Telerik.CAB.WinForms\Telerik.CAB.WinForms.sln.
 

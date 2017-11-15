@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{94C93A6B-F7E7-4278-BCE6-E0667B64BD4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{30699ADD-EEA4-45F6-B53C-E1D0F81941D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Interface", "Source\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj", "{6A84513C-D1AA-471A-9BC4-39B403B7A3EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Library", "Source\Infrastructure\Infrastructure.Library\Infrastructure.Library.csproj", "{29CE8E4A-2011-426F-9C0E-DF6A80A239C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Module", "Source\Infrastructure\Infrastructure.Module\Infrastructure.Module.csproj", "{A6D79A4C-F835-433B-AA2D-05639EC86537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "Source\Infrastructure\Shell\Shell.csproj", "{D6979618-AA35-48E1-ABD9-963DD6C0FBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Layout", "Source\Infrastructure\Infrastructure.Layout\Infrastructure.Layout.csproj", "{024FFDA5-1477-457A-82CE-0FBF153D1494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.CAB.WinForms", "..\Source\Telerik.CAB.WinForms\Telerik.CAB.WinForms.csproj", "{98089469-26B0-4F33-B172-1A7E770AEFF1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs10.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Source\\Infrastructure\\Infrastructure.Interface\\Infrastructure.Interface.csproj
+		SccProjectTopLevelParentUniqueName1 = FinanceApplicationCAB_VS2008.sln
+		SccProjectName1 = Source/Infrastructure/Infrastructure.Interface
+		SccLocalPath1 = Source\\Infrastructure\\Infrastructure.Interface
+		SccProjectUniqueName2 = Source\\Infrastructure\\Infrastructure.Library\\Infrastructure.Library.csproj
+		SccProjectTopLevelParentUniqueName2 = FinanceApplicationCAB_VS2008.sln
+		SccProjectName2 = Source/Infrastructure/Infrastructure.Library
+		SccLocalPath2 = Source\\Infrastructure\\Infrastructure.Library
+		SccProjectUniqueName3 = Source\\Infrastructure\\Infrastructure.Module\\Infrastructure.Module.csproj
+		SccProjectTopLevelParentUniqueName3 = FinanceApplicationCAB_VS2008.sln
+		SccProjectName3 = Source/Infrastructure/Infrastructure.Module
+		SccLocalPath3 = Source\\Infrastructure\\Infrastructure.Module
+		SccProjectUniqueName4 = Source\\Infrastructure\\Shell\\Shell.csproj
+		SccProjectTopLevelParentUniqueName4 = FinanceApplicationCAB_VS2008.sln
+		SccProjectName4 = Source/Infrastructure/Shell
+		SccLocalPath4 = Source\\Infrastructure\\Shell
+		SccProjectUniqueName5 = Source\\Infrastructure\\Infrastructure.Layout\\Infrastructure.Layout.csproj
+		SccProjectTopLevelParentUniqueName5 = FinanceApplicationCAB_VS2008.sln
+		SccProjectName5 = Source/Infrastructure/Infrastructure.Layout
+		SccLocalPath5 = Source\\Infrastructure\\Infrastructure.Layout
+		SccProjectUniqueName6 = ..\\Source\\Telerik.CAB.WinForms\\Telerik.CAB.WinForms.csproj
+		SccProjectName6 = ../Source/Telerik.CAB.WinForms
+		SccLocalPath6 = ..\\Source\\Telerik.CAB.WinForms
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A84513C-D1AA-471A-9BC4-39B403B7A3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A84513C-D1AA-471A-9BC4-39B403B7A3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A84513C-D1AA-471A-9BC4-39B403B7A3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A84513C-D1AA-471A-9BC4-39B403B7A3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29CE8E4A-2011-426F-9C0E-DF6A80A239C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CE8E4A-2011-426F-9C0E-DF6A80A239C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CE8E4A-2011-426F-9C0E-DF6A80A239C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CE8E4A-2011-426F-9C0E-DF6A80A239C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D79A4C-F835-433B-AA2D-05639EC86537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D79A4C-F835-433B-AA2D-05639EC86537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D79A4C-F835-433B-AA2D-05639EC86537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D79A4C-F835-433B-AA2D-05639EC86537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6979618-AA35-48E1-ABD9-963DD6C0FBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6979618-AA35-48E1-ABD9-963DD6C0FBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6979618-AA35-48E1-ABD9-963DD6C0FBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6979618-AA35-48E1-ABD9-963DD6C0FBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024FFDA5-1477-457A-82CE-0FBF153D1494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024FFDA5-1477-457A-82CE-0FBF153D1494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024FFDA5-1477-457A-82CE-0FBF153D1494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024FFDA5-1477-457A-82CE-0FBF153D1494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98089469-26B0-4F33-B172-1A7E770AEFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98089469-26B0-4F33-B172-1A7E770AEFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98089469-26B0-4F33-B172-1A7E770AEFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98089469-26B0-4F33-B172-1A7E770AEFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30699ADD-EEA4-45F6-B53C-E1D0F81941D9} = {94C93A6B-F7E7-4278-BCE6-E0667B64BD4E}
+		{6A84513C-D1AA-471A-9BC4-39B403B7A3EC} = {30699ADD-EEA4-45F6-B53C-E1D0F81941D9}
+		{29CE8E4A-2011-426F-9C0E-DF6A80A239C5} = {30699ADD-EEA4-45F6-B53C-E1D0F81941D9}
+		{A6D79A4C-F835-433B-AA2D-05639EC86537} = {30699ADD-EEA4-45F6-B53C-E1D0F81941D9}
+		{D6979618-AA35-48E1-ABD9-963DD6C0FBBD} = {30699ADD-EEA4-45F6-B53C-E1D0F81941D9}
+		{024FFDA5-1477-457A-82CE-0FBF153D1494} = {30699ADD-EEA4-45F6-B53C-E1D0F81941D9}
+	EndGlobalSection
+EndGlobal
